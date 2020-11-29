@@ -1,0 +1,44 @@
+
+
+h1 {
+	text-align: center;
+}
+
+img {
+	width: 75px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+img:hover {
+	transform: rotate(360deg);
+}
+
+.update {
+	background-color: orange;
+	padding: 7px;
+	border-radius: 5px;
+	color: white;
+}
+
+.delete {
+	background-color: red;
+	padding: 7px;
+	border-radius: 5px;
+	color: white;
+}
+
+.input {
+	background-color: silver;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.input:hover {
+	background-color: red;
+	color: white;
+}
+
+input {
+	width: 300px;
+}
